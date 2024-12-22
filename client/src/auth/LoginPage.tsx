@@ -54,6 +54,7 @@ const LoginPage: React.FC = () => {
                 <div className="register-router-wrapper">
                     <p className="">Don't have an account?</p>
                     <Link to='/register' className='register-link'>Register</Link>
+                    <Link to='/stegapp' className='register-link'>.</Link>
                 </div>
             </div>
 
