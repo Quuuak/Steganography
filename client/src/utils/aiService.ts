@@ -1,16 +1,8 @@
-import dotenv from 'dotenv';
-
-dotenv.config();
-
 export async function generateImage(): Promise<string> {
-  const apiKey = process.env.API_KEY;
-
-  if (!apiKey) {
-    throw new Error('API key is missing. Please check your .env file.');
-  }
+  const apiKey = "mur8RRpXaVFDebmbdp336A==9Jkey0npD2WgrdZR";
 
   try {
-    const response = await fetch(`https://api.api-ninjas.com/v1/randomimage?category=wildlife`, {
+    const response = await fetch("https://api.api-ninjas.com/v1/randomimage?category=wildlife", {
       method: 'GET',
       headers: {
         'X-Api-Key': apiKey,
