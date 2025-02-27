@@ -53,8 +53,8 @@ const App: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/stegapp" element={<StegApp />} />
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/register" element={<SignUpPage />} />
+{/*         <Route path="/" element={<LoginPage />} />
+        <Route path="/register" element={<SignUpPage />} /> */}
       </Routes>
     </BrowserRouter>
   );
